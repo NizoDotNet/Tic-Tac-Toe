@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+
+}
+
+.item, .restart-button{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.item:hover{
+    background-color: darkgrey;
+}
+
+.restart-button{
+    font-size: medium;
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
